@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Exam (Mohit Kumar)</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-do App</h2>
+        <p>What do you need to do?</p>
+    </div>
+    <div class="bar">
+        <input type="text" placeholder="Filter Todos" id="searchText" onkeyup="filtertasks()">
+        <input type="checkbox" id="hidecomplete" onchange="hideCompleted()"><span>Hide Completed</span>
+    </div>
+    <div class="main-container">
+        <div id="numtasks"></div>
+        <div id="alltasks">
+
+        </div>
+        <form onsubmit="addTask(); return false;">
+            <input type="text" placeholder="New Todo" id="task" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
