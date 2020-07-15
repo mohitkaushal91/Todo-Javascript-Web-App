@@ -1,6 +1,6 @@
 # Todo-Javascript-Web-App
 
-It is todo task manager website to manage our daily tasks easily.< br/>
+It is todo task manager website to manage our daily tasks easily.<br/>
 
 This website is developed purely in JavaScript.<br/>
 User can add and remove tasks easliy.<br/>
